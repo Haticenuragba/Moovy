@@ -1,0 +1,54 @@
+
+
+<android.support.constraint.ConstraintLayout android:id="@+id/movieItemParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/iv_item"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/moovy_orange_background"
+        android:scaleType="centerCrop"
+
+        app:layout_constraintDimensionRatio="H,2:3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/tv_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_info_height"
+        android:background="#88000000"
+        android:ellipsize="none"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingEnd="@dimen/grid_right_padding"
+        android:paddingLeft="@dimen/grid_left_padding"
+        android:paddingRight="@dimen/grid_right_padding"
+        android:paddingStart="@dimen/grid_left_padding"
+        android:text="MOOVY"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/grid_info_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/favoriteIv"
+        android:layout_width="@dimen/grid_info_height"
+        android:layout_height="@dimen/grid_info_height"
+
+        android:clickable="true"
+        android:padding="@dimen/image_padding"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_star_white"
+        />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ListPreference
+
+        android:title = "@string/language_preference"
+        android:key = "language"
+        android:defaultValue = "en-US"
+        android:entryValues = "@array/language_options_values"
+        android:entries = "@array/language_options"
+        >
+
+    </ListPreference>
+    <CheckBoxPreference
+        android:title="@string/adult_content"
+        android:key="adult_content"
+        android:defaultValue="false"
+        android:summary="@string/adult_content_summary"
+        ></CheckBoxPreference>
+
+
+    <CheckBoxPreference
+        android:title="@string/show_original_title"
+        android:key="original_title"
+        android:defaultValue="false"
+        android:summary="@string/show_original_title_summary" />
+</PreferenceScreen>

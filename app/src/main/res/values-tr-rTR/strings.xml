@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moovy</string>
+    <string name="most_popular" translatable="false">En İyiler</string>
+    <string name="now_playing">Vizyondakiler</string>
+    <string name="up_coming">Beklenenler</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_search">Film Ara</string>
+    <string name="action_favourites">Favoriler</string>
+    <string name="adult_content">Yetişkin İçeriği Göster</string>
+    <string name="adult_content_summary">Eğer bu seçenek seçilirse, yetişkin içerikli filmler uygulamada gösterilir</string>
+    <string name="language_preference">Dil</string>
+    <string name="entry_count_preference">Görüntülenecek Film Sayısı</string>
+    <string name="entry_count_preference_summary">Bu sayı, ana ekranda kaç tane film gösterileceğini belirler.</string>
+    <string name="release_date">Yayın Tarihi</string>
+    <string name="location">Ülke</string>
+    <string name="cast">Oyuncular</string>
+    <string name="storyline">Filmin Hikayesi</string>
+    <string name="reviews">Yorumlar</string>
+    <string name="there_is_no_review_for_this_movie_yet">Bu filme henüz yorum yapılmamış.</string>
+    <string name="favourites">Favoriler</string>
+    <string name="birth_date">Doğum Tarihi</string>
+    <string name="birth_place">Doğum Yeri</string>
+    <string name="biography">Biografi</string>
+    <string name="credit">Rol Aldığı Filmler</string>
+    <string name="read_more">Devamını Oku</string>
+    <string name="show_original_title">Filmin Orijinal İsmini Göster</string>
+    <string name="show_original_title_summary">Bu seçenek seçilirse, ana sayfada filmlerin orijinal ismi gösterilir.</string>
+    <string-array name="language_options">
+        <item>"İngilizce"</item>
+        <item>"Türkçe"</item>
+    </string-array>
+    <string-array name="sort_types">
+        <item>Popülerlik</item>
+        <item>Puan</item>
+        <item>İsim</item>
+    </string-array>
+    <string name="you_should_enter_query">Bir isim girmen gerek.</string>
+    <string name="name_of_movie">Filmin İsmi</string>
+    <string name="quick_search">Hızlı Arama</string>
+    <string name="year">Yıl</string>
+    <string name="minimum_score">Minimum Puan</string>
+    <string name="genre">Tür</string>
+    <string name="sort_by">Sıralama Kriteri</string>
+    <string name="detailed_search">Detaylı Arama</string>
+    <string name="make_sure_internet">İnternete bağlı olduğunuza emin olun</string>
+    <string name="fetch_movies">Bilgiler Çekiliyor</string>
+
+    <string name="SearchActivityAppBar">Arama Yap</string>
+    <string name="SearchResultsActivityAppBar">Arama Sonuçları</string>
+    <string name="FavoritesAppBar">Favoriler</string>
+    <string name="FullReviewAppbar">Yorumun Tamamı</string>
+</resources>
