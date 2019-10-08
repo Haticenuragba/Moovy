@@ -32,5 +32,13 @@ You can see popular, top rated and upcoming movies on main page. You can also ad
 <img src="https://github.com/Haticenuragba/Moovy/blob/master/secreenshots/search.jpeg" width="300" height="500">
   <img src="https://github.com/Haticenuragba/Moovy/blob/master/secreenshots/search_result.png" width="300" height="500">
   </p>
+   <br>
+    <p>
+  You can also view cast and their details and other movies.
+  </p>
+  <br>
+    <p float="left">
+<img src="https://github.com/Haticenuragba/Moovy/blob/master/secreenshots/person.png" width="300" height="500">
+  </p>
   
   
