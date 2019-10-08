@@ -38,7 +38,7 @@ You can see popular, top rated and upcoming movies on main page. You can also ad
   </p>
   <br>
     <p float="left">
-<img src="https://github.com/Haticenuragba/Moovy/blob/master/secreenshots/person.png" width="300" height="500">
+<img src="https://github.com/Haticenuragba/Moovy/blob/master/secreenshots/person.jpeg" width="300" height="500">
   </p>
   
   
